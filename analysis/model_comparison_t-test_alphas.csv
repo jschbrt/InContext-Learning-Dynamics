@@ -1,0 +1,22 @@
+exp_name,agent,cognitive_models,comparison,N-1,statistic,pvalue
+partial,llm,Model_2alpha,paried t-test: alpha_pos vs alpha_neg,49.0,24.208,0.0
+partial,human,Model_2alpha,paried t-test: alpha_pos vs alpha_neg,49.0,6.305,0.0
+partial,meta-rl,Model_2alpha,paried t-test: alpha_pos vs alpha_neg,49.0,21.894,0.0
+full,llm,Model_2alpha,paried t-test: alpha_conf vs alpha_disconf,23.0,7.75,0.0
+full,llm,Model_4alpha,paried t-test: alpha_pos_chosen vs alpha_neg_chosen,23.0,5.711,0.0
+full,llm,Model_4alpha,paried t-test: alpha_pos_unchosen vs alpha_neg_unchosen,23.0,-5.707,0.0
+full,human,Model_2alpha,paried t-test: alpha_conf vs alpha_disconf,23.0,8.945,0.0
+full,human,Model_4alpha,paried t-test: alpha_pos_chosen vs alpha_neg_chosen,23.0,4.934,0.0001
+full,human,Model_4alpha,paried t-test: alpha_pos_unchosen vs alpha_neg_unchosen,23.0,-5.484,0.0
+full,meta-rl,Model_2alpha,paried t-test: alpha_conf vs alpha_disconf,23.0,7.572,0.0
+full,meta-rl,Model_4alpha,paried t-test: alpha_pos_chosen vs alpha_neg_chosen,23.0,6.728,0.0
+full,meta-rl,Model_4alpha,paried t-test: alpha_pos_unchosen vs alpha_neg_unchosen,23.0,-5.974,0.0
+agency,llm,Model_3alpha,paried t-test: alpha_pos_free vs alpha_neg_free,23.0,4.702,0.0001
+agency,llm,Model_4alpha,paried t-test: alpha_pos_free vs alpha_pos_forced,23.0,6.774,0.0
+agency,llm,Model_4alpha,paried t-test: alpha_neg_free vs alpha_neg_forced,23.0,-2.751,0.0114
+agency,human,Model_3alpha,paried t-test: alpha_pos_free vs alpha_neg_free,23.0,3.065,0.0055
+agency,human,Model_4alpha,paried t-test: alpha_pos_free vs alpha_pos_forced,23.0,2.703,0.0127
+agency,human,Model_4alpha,paried t-test: alpha_neg_free vs alpha_neg_forced,23.0,-2.354,0.0275
+agency,meta-rl,Model_3alpha,paried t-test: alpha_pos_free vs alpha_neg_free,23.0,6.371,0.0
+agency,meta-rl,Model_4alpha,paried t-test: alpha_pos_free vs alpha_pos_forced,23.0,3.645,0.0014
+agency,meta-rl,Model_4alpha,paried t-test: alpha_neg_free vs alpha_neg_forced,23.0,-7.086,0.0

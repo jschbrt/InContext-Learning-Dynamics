@@ -1,0 +1,16 @@
+*__pycache__
+*.pyc
+*.env
+
+*.mat
+*.pt
+*.json
+*tb*
+*.m 
+*.zip
+*.DS_Store
+*.code-workspace
+*.m
+*.pdf
+*.svg
+*logs*
